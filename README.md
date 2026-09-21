@@ -39,7 +39,7 @@ Meu foco está principalmente em **back-end, APIs, arquitetura de software e des
 
 No GitHub, mantenho projetos que passam por diferentes áreas — sistemas web completos, dashboards, automação, jogos e experimentos voltados ao aprendizado e à evolução técnica.
 
-Atualmente busco oportunidades como **estagiário ou desenvolvedor júnior**, especialmente em projetos envolvendo APIs, aplicações web/desktop, banco de dados e automação.
+Atualmente busco oportunidades como **desenvolvedor júnior**, especialmente em projetos envolvendo APIs, aplicações web/desktop, banco de dados e automação.
 
 ```text
 ┌─ NathanNMR
