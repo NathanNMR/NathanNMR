@@ -50,7 +50,7 @@ Atualmente busco oportunidades como **estagiário ou desenvolvedor júnior**, es
 ├─ 🔷 C# / .NET
 ├─ 🗄️ SQL & Bancos de Dados
 └─ 🚀 Construindo, testando e evoluindo projetos
-````
+```
 
 ---
 
@@ -130,63 +130,54 @@ Atualmente busco oportunidades como **estagiário ou desenvolvedor júnior**, es
 
 ## `> ls ./featured-projects`
 
-<div align="center">
-
-<a href="https://github.com/NathanNMR/Clinica-JURASSIHEALTH">
-  <img
-    width="48%"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=NathanNMR&repo=Clinica-JURASSIHEALTH&bg_color=0D0D0D&border_color=DC143C&title_color=DC143C&icon_color=FF1744&text_color=D8D8D8"
-  />
-</a>
-
-<a href="https://github.com/NathanNMR/Dashboard-Financeiro">
-  <img
-    width="48%"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=NathanNMR&repo=Dashboard-Financeiro&bg_color=0D0D0D&border_color=DC143C&title_color=DC143C&icon_color=FF1744&text_color=D8D8D8"
-  />
-</a>
-
-<a href="https://github.com/NathanNMR/Xadrez-2">
-  <img
-    width="48%"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=NathanNMR&repo=Xadrez-2&bg_color=0D0D0D&border_color=DC143C&title_color=DC143C&icon_color=FF1744&text_color=D8D8D8"
-  />
-</a>
-
-<a href="https://github.com/NathanNMR/Macaco-Infinito">
-  <img
-    width="48%"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=NathanNMR&repo=Macaco-Infinito&bg_color=0D0D0D&border_color=DC143C&title_color=DC143C&icon_color=FF1744&text_color=D8D8D8"
-  />
-</a>
-
-</div>
-
-<br/>
-
-### JURASSIHEALTH
-
-Sistema web responsivo de **gestão clínica**, desenvolvido com **ASP.NET Core 8, Entity Framework Core e MySQL/MariaDB**.
-
-Inclui diferentes perfis de usuário, agenda médica, agendamentos, documentos médicos, dashboard administrativo, API REST, autenticação, Docker, GitHub Actions e configuração para deploy.
-
-### SmartFinance — Dashboard Financeiro
-
-Dashboard para **controle financeiro pessoal** desenvolvido com **Next.js, React, TypeScript, Tailwind CSS e Recharts**.
-
-Possui gerenciamento de receitas e despesas, contas, metas de gastos, importação e exportação CSV, gráficos, transações recorrentes e projeções de despesas.
-
-### Xadrez 2 — Definitive Edition
-
-Projeto em **HTML, CSS e JavaScript** que expande o xadrez tradicional.
-
-Além das regras clássicas, possui um modo especial com tabuleiro expandido, novas peças, casas especiais, eventos climáticos, cronômetros, histórico, PGN e salvamento local.
-
-### Macaco Infinito
-
-Teste de **velocidade e precisão de digitação em português**, construído inteiramente no front-end com HTML, CSS e JavaScript puro.
-
-Possui estatísticas em tempo real, diferentes durações de teste, feedback visual por caractere e interface responsiva.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🦖 JURASSIHEALTH</h3>
+<p>Sistema web responsivo de <strong>gestão clínica</strong> com perfis de usuário, agenda médica, agendamentos, documentos, dashboard administrativo e API REST.</p>
+<p>
+<img src="https://img.shields.io/badge/ASP.NET_Core-111111?style=flat-square&logo=dotnet&logoColor=DC143C" alt="ASP.NET Core" />
+<img src="https://img.shields.io/badge/Entity_Framework-111111?style=flat-square&logo=dotnet&logoColor=DC143C" alt="Entity Framework" />
+<img src="https://img.shields.io/badge/MySQL-111111?style=flat-square&logo=mysql&logoColor=DC143C" alt="MySQL" />
+<img src="https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=DC143C" alt="Docker" />
+</p>
+<a href="https://github.com/NathanNMR/Clinica-JURASSIHEALTH"><strong>Ver repositório →</strong></a>
+</td>
+<td width="50%" valign="top">
+<h3>💳 SmartFinance</h3>
+<p>Dashboard de <strong>controle financeiro pessoal</strong> com receitas, despesas, metas, gráficos, CSV, transações recorrentes e projeções.</p>
+<p>
+<img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=DC143C" alt="Next.js" />
+<img src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=DC143C" alt="React" />
+<img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=DC143C" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Tailwind-111111?style=flat-square&logo=tailwindcss&logoColor=DC143C" alt="Tailwind CSS" />
+</p>
+<a href="https://github.com/NathanNMR/Dashboard-Financeiro"><strong>Ver repositório →</strong></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>♟️ Xadrez 2 — Definitive Edition</h3>
+<p>Expansão do xadrez tradicional com modo especial, novas peças, casas especiais, eventos climáticos, PGN, cronômetros e salvamento local.</p>
+<p>
+<img src="https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=DC143C" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css&logoColor=DC143C" alt="CSS3" />
+<img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=DC143C" alt="JavaScript" />
+</p>
+<a href="https://github.com/NathanNMR/Xadrez-2"><strong>Ver repositório →</strong></a>
+</td>
+<td width="50%" valign="top">
+<h3>🐒 Macaco Infinito</h3>
+<p>Teste de <strong>velocidade e precisão de digitação</strong> em português com estatísticas em tempo real, feedback por caractere e design responsivo.</p>
+<p>
+<img src="https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=DC143C" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css&logoColor=DC143C" alt="CSS3" />
+<img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=DC143C" alt="JavaScript" />
+</p>
+<a href="https://github.com/NathanNMR/Macaco-Infinito"><strong>Ver repositório →</strong></a>
+</td>
+</tr>
+</table>
 
 <div align="right">
 
@@ -206,17 +197,8 @@ Possui estatísticas em tempo real, diferentes durações de teste, feedback vis
 
 <div align="center">
 
-<img
-height="180"
-src="https://github-readme-stats.vercel.app/api?username=NathanNMR&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D0D0D&title_color=DC143C&icon_color=FF1744&text_color=F0F0F0&ring_color=DC143C"
-alt="Nathan GitHub Stats"
-/>
-
-<img
-height="180"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=NathanNMR&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=DC143C&text_color=F0F0F0&langs_count=8"
-alt="Top Languages"
-/>
+<img width="49%" src="./assets/github-stats.svg" alt="Nathan GitHub Stats" />
+<img width="49%" src="./assets/top-languages.svg" alt="Top Languages" />
 
 </div>
 
@@ -251,11 +233,7 @@ alt="GitHub Streak"
 
 <div align="center">
 
-<img
-width="100%"
-src="https://github-readme-activity-graph.vercel.app/graph?username=NathanNMR&bg_color=0D0D0D&color=D8D8D8&line=DC143C&point=FF1744&area=true&area_color=650014&hide_border=true&custom_title=Contribution%20Activity"
-alt="GitHub Activity Graph"
-/>
+<img width="100%" src="./assets/activity.svg" alt="GitHub Contribution Activity" />
 
 </div>
 
@@ -271,11 +249,7 @@ alt="GitHub Activity Graph"
 
 <div align="center">
 
-<img
-width="100%"
-src="https://github-profile-trophy.vercel.app/?username=NathanNMR&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7"
-alt="GitHub Trophies"
-/>
+<img width="100%" src="./assets/achievements.svg" alt="GitHub Achievements" />
 
 </div>
 
@@ -307,26 +281,6 @@ alt="GitHub Trophies"
 </picture>
 
 </div>
-
-<!--
-IMPORTANTE — SNAKE CONTRIBUTION
-
-A animação acima deve ser gerada no repositório NathanNMR/NathanNMR
-através de um GitHub Action usando Platane/snk@v3.
-
-O workflow deve gerar:
-
-github-contribution-grid-snake.svg
-github-contribution-grid-snake-dark.svg
-
-na branch:
-
-output
-
-Caminho recomendado do workflow:
-
-.github/workflows/snake.yml
--->
 
 ---
 
