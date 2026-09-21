@@ -1,0 +1,102 @@
+name: Profile Assets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: GitHub stats
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: NathanNMR
+          filename: assets/github-stats.svg
+          template: terminal
+          base: header, repositories
+          config_timezone: America/Sao_Paulo
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update GitHub stats [skip ci]"
+          retries: 2
+
+      - name: Top languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: NathanNMR
+          filename: assets/top-languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          config_timezone: America/Sao_Paulo
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update language metrics [skip ci]"
+          retries: 2
+
+      - name: Contribution activity
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: NathanNMR
+          filename: assets/activity.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: America/Sao_Paulo
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update activity metrics [skip ci]"
+          retries: 2
+
+      - name: GitHub achievements
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: NathanNMR
+          filename: assets/achievements.svg
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+          config_timezone: America/Sao_Paulo
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update achievements [skip ci]"
+          retries: 2
+
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: NathanNMR
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%23DC143C&color_dots=%23111111,%2334000A,%23650014,%239A001F,%23DC143C
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23FF1744&color_dots=%230D1117,%2334000A,%23650014,%239A001F,%23DC143C
+
+      - name: Publish snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
