@@ -27,7 +27,7 @@
 <!-- ABOUT -->
 <!-- ====================================================== -->
 
-> whoami
+> 
 Sou Nathan Moreira Ramos, estudante de Análise e Desenvolvimento de Sistemas na Universidade Paulista — UNIP.
 Meu foco está principalmente em back-end, APIs, arquitetura de software e desenvolvimento de sistemas, trabalhando com tecnologias como Python, C# e ASP.NET Core, além de desenvolvimento web com React e outras ferramentas do ecossistema moderno.
 No GitHub, mantenho projetos que passam por diferentes áreas — sistemas web completos, dashboards, automação, jogos e experimentos voltados ao aprendizado e à evolução técnica.
